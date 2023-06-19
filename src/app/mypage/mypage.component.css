@@ -1,0 +1,43 @@
+.sai {
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-right: 5%;
+    background-image: url("../../assets/images/idea.jpg");   
+}.h-custom {
+height: calc(100% - 10px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.img-fluid {
+    width: 60%;
+}
+.aa{
+
+  width: 500px;
+  border: 5px solid rgb(76, 61, 237);
+  padding:25px;
+  margin: 20px;
+  animation: sai 5s infinite;
+   
+}
+form{
+  position: relative;
+    top: -37px;
+    right: 110px;
+}
+@keyframes sai {
+    from {background-color: rgb(120, 108, 185);}
+    to {background-color: rgb(94, 49, 183);}
+    50% {border-radius: 50px;}
+  }
+  .h-100 {
+    padding-left: 60%;
+ }
+ 
+ 
+
+      
+ 
